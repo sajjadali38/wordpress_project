@@ -1,0 +1,465 @@
+/*  
+Theme Name: bankcomp
+Theme URI: http://bozzeny.com
+Description:  bankcomp theme designed by <a href="http://bozzeny.com">Bozzeny</a>.
+Version: 1.0
+Author: Bozze
+Author URI: http://bozzeny.com
+
+	By downloading and using this theme, you agree to the following terms:
+    - You may NOT resell this theme
+    - A link back to bozzeny.com must be retained in the footer (either modified or unmodified)
+    - You may modify, translate or distribute
+
+*/
+
+
+
+body {
+	background: #8AAE4E url(images/bg.jpg) repeat-x;
+	background-attachment:fixed;
+	font: 10pt 'Trebuchet MS', Verdana, Tahoma, arial, sans-serif;
+	color:#000;
+	text-align: center;
+	margin: 0 0 0 0;
+}
+
+/* links */
+a, a:visited {
+	text-decoration: none;
+	color: #70D29C;
+}
+a:hover {
+	color: #9A9DB0;
+	text-decoration: underline;
+}
+img {
+	border: none;
+}
+p {
+	padding: 0px 0px 15px;
+	margin: 0px;
+}
+
+
+#wrap {
+	width: 900px;
+	background: #fff;
+	margin: 20px auto;
+	text-align: left;
+}
+
+#content-wrap {
+	clear: both;
+	width: 900px;
+	padding: 0; 
+	margin: 0 auto;
+}
+
+
+#header {
+	width: 900px;
+	height: 150px;
+	position: relative;
+	background: #F1EAD8 url(images/header.jpg) no-repeat center top;
+	padding: 0;	
+}
+#header h1#logo-text  {
+	margin-right: 0px; padding-top: 45px;
+	letter-spacing: -2px;
+	color: #DEE878;
+	text-transform: none;
+	text-align: center;	
+
+}
+
+#header h1#logo-text a {
+	color: #000000;
+	text-transform: uppercase;
+	font: bolder 28pt Georgia, Arial, Sans-serif;
+}
+
+#header h2#slogan {
+	margin-right: 0px; margin-top: -20px;
+	font: normal 18px 'Trebuchet MS', Arial, Sans-serif;
+	text-transform: none;
+	color: #165116;
+	text-align: center;	
+
+}
+/* navi */
+
+
+#nav {
+	list-style: none;
+	margin: 0px;
+	position: absolute;
+	left: 10px;
+	top: 0px;	
+	padding:0 0 0 0;
+}
+#nav li {
+	float: left;
+	margin-left: 5px;
+}
+#nav .current_page_item a, #nav .current_page_item a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+#nav .page_item a{
+	color: #DFEFFD;
+	text-decoration: none;
+	border-bottom: 1px solid #74B5EC;
+	border-left: 1px solid #74B5EC;
+	border-right: 1px solid #74B5EC;
+	padding: 5px 15px;
+	font: bold 12px/100% Arial, Helvetica, sans-serif;
+	display: block;
+}
+#nav .page_item a:hover {
+	color: #000;
+}
+
+
+/* sidebar-2 */
+#sidebar-ateh {
+	float: right;
+	padding: 0px 0px 0 0;
+	width: 466px;
+	color: #fff;
+	background: #fff url(images/sidebar.jpg) no-repeat right top;
+	display:block;
+
+}
+
+#sidebar-2 {
+	float: left;
+	padding: 10px 0 0 0;
+	width: 220px;
+	color: #205692;
+}
+
+#sidebar-2 h2{
+	font: bold 12pt "Trebuchet MS", Tahoma, Arial;
+	margin: 20px 0px 2px;
+	border-bottom: 1px solid #6BC6F5;
+	color:#1D5673;
+	margin:0;
+	text-transform: uppercase;
+	padding-top:10px;
+}
+
+#sidebar-2 a, #sidebar a:visited {
+	text-decoration: none;	
+	color: #284628;
+}
+
+#sidebar-2 ul li {
+	list-style: none;
+	padding: 0;
+	border: none;
+}
+
+#sidebar-2 ul li ul {
+	padding: 0;
+	margin: 0;
+}
+#sidebar-2 ul li ul li{
+	border-bottom: 1px dotted #F5AF6B;
+	background: url(images/icon.gif) no-repeat left center !important;
+	padding-left: 20px !important;
+	line-height:26px;
+}
+#sidebar-2 ul li ul li ul li{
+	padding: 1px 0 1px 10px;
+	border: none;
+}
+
+
+#sidebar-2-text{
+	font: Normal 9pt;
+	margin: 0 10px 0 0;
+	color:#000;
+}
+#sidebar-2 a:hover {
+	color: red;	
+}
+
+
+/* sidebar-1 */
+
+#sidebar-1 {
+	float: right;
+	padding: 10px 25px 0 0;
+	width: 230px;
+	color: #205692;
+	margin-left:-10px;
+}
+
+#sidebar-1 h2{
+	font: bold 12pt "Trebuchet MS", Tahoma, Arial;
+	margin: 20px 0px 2px;
+	border-bottom: 1px solid #6BC6F5;
+	color:#1D5673;
+	margin:0;
+	text-transform: uppercase;
+	padding-top:10px;
+}
+
+#sidebar-1 a, #sidebar a:visited {
+	text-decoration: none;	
+	color: #284628;
+}
+
+#sidebar-1 ul li {
+	list-style: none;
+	padding: 0;
+	border: none;
+}
+
+#sidebar-1 ul li ul {
+	padding: 0;
+	margin: 0;
+}
+#sidebar-1 ul li ul li{
+	border-bottom: 1px dotted #F5AF6B;
+	background: url(images/icon.gif) no-repeat left center !important;
+	padding-left: 20px !important;
+	line-height:26px;
+}
+#sidebar-1 ul li ul li ul li{
+	padding: 1px 0 1px 10px;
+	border: none;
+}
+
+
+#sidebar-1-text{
+	font: Normal 9pt;
+	margin: 0 10px 0 0;
+	color:#000;
+}
+#sidebar-1 a:hover {
+	color: red;	
+}
+
+
+/*calendar widget */
+li.widget_calendar td {
+	padding: 1px 5px;
+}
+/*text widget */
+.textwidget {
+	padding-top: 5px;
+}
+
+/* main */
+
+
+#main {
+	float: left;
+	width: 434px;
+	display: block;
+	padding: 170px 0px 0px 0px;
+	background: #fff url(images/main.jpg) no-repeat left top;
+}
+
+.main-text {
+	margin:0 0 20px 20px;
+	color:#202020;
+
+}
+
+#main h1 {
+	margin:0 0 0 0px;
+	font: Bold 14pt 'Trebuchet MS', Tahoma, Sans-serif;
+	color: #000; 
+	text-transform: uppercase;
+}
+#main h1 a{
+	color: #399171; 
+}
+
+#main a {
+	color: #D16903;			
+}
+
+#main a:hover {
+	color: #55A16C;	
+}
+
+.post-cat {
+	background: url(images/icon_cat.gif) no-repeat;
+	padding-left: 20px;
+	color: #202020;
+}
+.post-date {
+	background: url(images/icon_date.gif) no-repeat;
+	padding-left: 20px;
+}
+.post-komentar {
+	background: url(images/comment.gif) no-repeat;
+	padding-left: 20px;
+}
+
+
+.readmore{
+	font: Italic 100% 'Trebuchet MS', Tahoma, Sans-serif;
+	color: red;
+}
+
+.date {
+	text-align:left;
+	margin:0 10px 10px 0px;
+	font-size: 11px;
+	color:#404040;
+	border-bottom: 1px solid #CCCCCC;
+	padding-bottom:5px;
+
+}
+
+.komentar {
+	text-align:right;
+	font: Normal 12pt Impact;
+	padding-bottom:20px;
+	margin-right:10px;
+}
+
+}
+.komentar a{
+	color:#1782A9;
+	text-decoration:underline;
+
+}
+
+.komentar a:hover{
+	color:#808080;
+	text-decoration:underline;
+
+}
+
+
+blockquote {
+	margin: 10px;
+ 	padding: 5px 20px 5px 20px;  
+   	border: 1px solid #f2f2f2; 
+  	background: #D7F4F7;  	
+	color:#000;
+}
+
+/* comments area */
+#comments, #respond {
+	border-bottom: 1px dotted #CCCCCC;
+	padding: 10px 0 5px 10px;
+	clear: both;
+}
+.commentlist {
+	margin: 10px 0px 0 15px;
+	padding-left: 20px;
+	line-height: 130%;
+}
+.commentlist li{
+	padding: 5px 10px;
+}
+.commentlist .alt {
+	background: #EEFADE;
+}
+.commentlist cite {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 120%;
+	color: #CC6600;
+}
+.commentlist cite a, .commentlist cite a:visited {
+	color: #CC6600;
+}
+.commentlist small {
+	margin-bottom: 5px;
+	display: block;
+	font-size: 87%;
+}
+#commentform {
+	margin-top: 10px;
+	font: 110% Arial, Helvetica, sans-serif;
+}
+#commentform p {
+	padding: 6px 0px 0 20px;
+	margin: 0px;
+}
+#commentform label{
+	color: #787878;
+	font-size: 87%;
+}
+#commentform input{
+	width: 200px;
+	background:#fff;
+	border: 1px solid #1F94BF;
+	padding: 3px;
+	margin-top: 3px;
+}
+#commentform textarea{
+	width: 400px;
+	height: 115px;
+	background:#fff;
+	border: 1px solid #1F94BF;
+	padding: 2px;
+	margin-top: 3px;
+}
+#commentform textarea:focus, #commentform input[type="text"]:focus {
+	background: #ffffff;
+}
+#commentform #submit{
+	background: #C7E179;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	color: #000;
+	border: none;
+	float:right;
+	width: 144px;
+	height: 28px;
+	cursor: pointer;
+}
+/*search form */
+#searchform {
+	margin: 20px 0 0 0px;
+	width: 180px;
+}
+#searchform br {
+	display: none;
+}
+#searchform #s {
+	border:1px solid #203346;
+	width: 110px;
+	height: 22px;
+	padding: 4px 5px 0px 0;
+	border: 1px solid #bed881;
+	background: #fff;
+	margin-right: 2px;
+	color: #000000;
+	font-weight: normal;
+}
+/* search form button */
+#searchform input {
+	background: url(images/search-btn.gif) no-repeat;
+	border: none;
+	width: 55px;
+	height: 26px;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	vertical-align: middle;
+
+}
+#footer {
+	background: #000 url(images/footer.jpg) ;
+	clear: both;
+	width: 900px;
+	height:45px;
+	text-align:center;
+	color: #800000;
+	padding-top:25px;
+
+
+}
+#footer a { 
+	color:#800000;
+	text-decoration: none; 
+	font: Bold 8pt 'Trebuchet MS', Tahoma, Sans-serif;
+}
